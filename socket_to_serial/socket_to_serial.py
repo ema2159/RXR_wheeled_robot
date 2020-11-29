@@ -36,4 +36,4 @@ with conn:
             conn, addr = s.accept()
         else:
             print(data)
-            ser.write(data.decode("utf-8").encode())
+            ser.write(data)
